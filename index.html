@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abderrahim Chadli - Full Stack Developer Portfolio">
+  <title>Abderrahim Chadli - Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #1a1a1a;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+    header h1 {
+      color: #34d399;
+      font-size: 1.8em;
+    }
+    nav a {
+      color: #dcdcdc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #34d399;
+    }
+    section {
+      padding: 100px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2.4em;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #34d399;
+    }
+    .intro p {
+      font-size: 1.2em;
+      color: #dcdcdc;
+      margin-bottom: 20px;
+    }
+    .project, .experience, .skills, .contact {
+      background-color: #1f1f1f;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .project h3, .experience h3, .skills span {
+      font-size: 1.5em;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .project p, .experience p, .skills span {
+      font-size: 1.1em;
+      color: #dcdcdc;
+    }
+    .project a, .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #34d399;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .project a:hover, .contact a:hover {
+      background-color: #2e8b56;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px 0;
+      color: #dcdcdc;
+    }
+    footer p {
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abderrahim Chadli</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" class="intro">
+  <h2>About Me</h2>
+  <p>I am a Full Stack Developer with expertise in Python, Django, React, and cloud platforms like AWS and Google Cloud. I love building scalable, secure, and innovative web applications.</p>
+  <p>With over 7 years of experience, I have worked on various projects from e-commerce platforms to IoT systems and automation tools. I am passionate about delivering high-quality, reliable software solutions.</p>
+</section>
+
+<section id="experience">
+  <h2>Where I've Worked</h2>
+  <div class="experience">
+    <h3>Full Stack Developer Freelancer</h3>
+    <p>January 2017 – Present</p>
+    <ul>
+      <li>Developed and maintained Shopify applications for digital downloads and store management.</li>
+      <li>Built custom web applications using Django, React, and PostgreSQL.</li>
+      <li>Worked on automation tools and email marketing solutions.</li>
+    </ul>
+  </div>
+  <div class="experience">
+    <h3>Director at DIGITAL DIVE LTD</h3>
+    <p>May 2020 – May 2021</p>
+    <ul>
+      <li>Led development of software solutions using Django and Python.</li>
+      <li>Managed e-commerce website development projects from inception to deployment.</li>
+    </ul>
+  </div>
+  <div class="experience">
+    <h3>Mailer Agent at Epower/Econsultansy</h3>
+    <p>October 2015 – December 2016</p>
+    <ul>
+      <li>Optimized email campaigns and server configurations for promotional emails.</li>
+      <li>Developed Python scripts for automation of email delivery systems.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Some Things I've Built</h2>
+  <div class="project">
+    <h3>Light Control System</h3>
+    <p>An IoT project for controlling lighting systems, integrating hardware with software solutions.</p>
+    <a href="https://github.com/Egaokira/light_control">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Property Management System</h3>
+    <p>A full-featured property management platform for real estate operations.</p>
+    <a href="https://github.com/Egaokira/property_management">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Digital Product Download</h3>
+    <p>A Shopify application for managing digital downloads and license keys.</p>
+    <a href="https://github.com/Egaokira/DigitalProductDownload">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Product Copy Manager</h3>
+    <p>An automation tool for product management and content synchronization.</p>
+    <a href="https://github.com/Egaokira/copyproducts">View Project</a>
+  </div>
+  <div class="project">
+    <h3>IP Blocker</h3>
+    <p>A security solution to manage and block unwanted network traffic with configurable rules.</p>
+    <a href="https://github.com/Egaokira/ipblocker">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Gmail Send Auto</h3>
+    <p>Email automation script leveraging Gmail API for bulk communication.</p>
+    <a href="https://github.com/Egaokira/Gmail-Send-Auto">View Project</a>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>JavaScript</span>
+    <span>Django</span>
+    <span>React</span>
+    <span>SQL</span>
+    <span>AWS</span>
+    <span>Git</span>
+    <span>Problem Solving</span>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Get In Touch</h2>
+  <p>I’m available for freelance projects and full-time opportunities. Feel free to contact me via email!</p>
+  <a href="mailto:egaokira@gmail.com">Say Hello</a>
+</section>
+
+<footer>
+  <p>© 2024 Abderrahim Chadli. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
