@@ -22,9 +22,9 @@
     }
     header {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
-      padding: 20px 40px;
+      padding: 20px;
       background-color: #1a1a1a;
       position: fixed;
       width: 100%;
@@ -33,12 +33,18 @@
     header h1 {
       color: #34d399;
       font-size: 1.8em;
+      margin-bottom: 15px;
     }
     header img {
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
+      margin-bottom: 15px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
     }
     nav a {
       color: #dcdcdc;
@@ -119,8 +125,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <header>
-  <h1>Abderrahim Chadli</h1>
   <img src="https://i.imgur.com/TT2M7em.jpeg" alt="Abderrahim Chadli">
+  <h1>Abderrahim Chadli</h1>
   <nav>
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
