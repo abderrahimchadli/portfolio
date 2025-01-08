@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Abderrahim Chadli - Senior Full Stack Developer specializing in Python, Django, React, and IoT solutions. Expert in building scalable web applications and automation systems with 7+ years of experience.">
-  <meta name="keywords" content="Abderrahim Chadli, Full Stack Developer, Python Developer, Django Expert, React Developer, IoT Specialist, Cloud Computing, AWS, Automation Expert">
+  <meta name="description" content="Abderrahim Chadli - Senior Full Stack Developer specializing in Python, Django, .NET, and modern web technologies. Expert in building scalable web applications with 7+ years of experience.">
+  <meta name="keywords" content="Abderrahim Chadli, Full Stack Developer, Python Developer, Django Expert, .NET Developer, Web Development, Automation Expert">
   <meta property="og:title" content="Abderrahim Chadli - Senior Full Stack Developer">
-  <meta property="og:description" content="Expert Full Stack Developer specializing in Python, Django, React, and IoT solutions with proven experience in delivering scalable applications.">
+  <meta property="og:description" content="Expert Full Stack Developer specializing in Python, Django, .NET, and modern web technologies with proven experience in delivering scalable applications.">
   <meta property="og:image" content="https://i.imgur.com/TT2M7em.jpeg">
   <meta property="og:type" content="website">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Abderrahim Chadli">
-  <title>Abderrahim Chadli | Senior Full Stack Developer - Python, Django, React & IoT Expert</title>
+  <title>Abderrahim Chadli | Senior Full Stack Developer - Python, Django & .NET Expert</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -210,6 +210,37 @@
       color: var(--primary);
     }
 
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .skill-card {
+      background: var(--bg-card);
+      padding: 2rem;
+      border-radius: 1rem;
+      transition: var(--transition);
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .skill-card h3 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .skill-card ul {
+      list-style-type: none;
+    }
+
+    .skill-card li {
+      margin-bottom: 0.5rem;
+    }
+
     /* Project Cards */
     .project-card {
       background: var(--bg-card);
@@ -245,56 +276,6 @@
       padding: 0.25rem 0.75rem;
       border-radius: 2rem;
       font-size: 0.875rem;
-    }
-
-    .project-details {
-      margin-top: 1rem;
-    }
-
-    .project-details h4 {
-      color: var(--text-light);
-      margin: 1rem 0 0.5rem;
-    }
-
-    .project-details ul {
-      list-style-type: none;
-      margin-left: 1rem;
-    }
-
-    .project-details li {
-      margin-bottom: 0.5rem;
-      position: relative;
-      padding-left: 1.5rem;
-    }
-
-    .project-details li::before {
-      content: "•";
-      position: absolute;
-      left: 0;
-      color: var(--primary);
-    }
-
-    /* Skills Section */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-
-    .skill-card {
-      background: var(--bg-card);
-      padding: 2rem;
-      border-radius: 1rem;
-      transition: var(--transition);
-    }
-
-    .skill-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .skill-card h3 {
-      color: var(--primary);
-      margin-bottom: 1rem;
     }
 
     /* Contact Section */
@@ -362,10 +343,6 @@
         display: none;
       }
 
-      .project-content {
-        padding: 1.5rem;
-      }
-
       .skills-grid {
         grid-template-columns: 1fr;
       }
@@ -412,8 +389,8 @@
   <main>
     <section class="hero container" id="about">
       <div class="hero-content">
-        <h1>Full Stack Developer & IoT Specialist</h1>
-        <p>Dedicated full-stack developer with 7+ years of experience specializing in Python, Django, React, and IoT solutions. Expert in building scalable applications and automated systems that drive business growth and efficiency.</p>
+        <h1>Full Stack Developer</h1>
+        <p>Dedicated full-stack developer with 7+ years of experience specializing in Python, Django, .NET, and modern web technologies. Expert in building scalable applications and automated systems that drive business growth and efficiency.</p>
         <a href="#contact" class="btn">Get in touch</a>
       </div>
       <div class="hero-image">
@@ -428,7 +405,7 @@
         <h3>Full Stack Developer Freelancer</h3>
         <div class="period">January 2017 – Present</div>
         <ul>
-          <li>Developed and deployed 20+ custom web applications using Django and React</li>
+          <li>Developed and deployed 20+ custom web applications using Django, ASP.NET, and modern JavaScript</li>
           <li>Implemented secure payment processing systems handling $500K+ in transactions</li>
           <li>Created automated email marketing solutions improving client engagement by 40%</li>
           <li>Optimized database performance reducing query times by 60%</li>
@@ -462,7 +439,7 @@
       </div>
     </section>
 
-    <section id="skills" class="section container">
+<section id="skills" class="section container">
       <h2 class="section-title">Technical Expertise</h2>
       <div class="skills-grid">
         <div class="skill-card">
@@ -470,10 +447,10 @@
           <p>Expert in server-side development with a focus on scalable architectures and API design.</p>
           <ul>
             <li>Python (Django, FastAPI, Flask)</li>
-            <li>RESTful APIs & GraphQL</li>
-            <li>PostgreSQL, MongoDB, Redis</li>
-            <li>Microservices Architecture</li>
-            <li>API Security & Authentication</li>
+            <li>C# (.NET Core, ASP.NET)</li>
+            <li>RESTful APIs</li>
+            <li>PostgreSQL, SQL Server</li>
+            <li>C++ (Core fundamentals)</li>
           </ul>
         </div>
 
@@ -481,35 +458,23 @@
           <h3>Frontend Development</h3>
           <p>Proficient in modern frontend technologies and responsive design principles.</p>
           <ul>
-            <li>React.js & Next.js</li>
-            <li>TypeScript & JavaScript</li>
-            <li>Tailwind CSS & Material-UI</li>
-            <li>Redux & Context API</li>
-            <li>Progressive Web Apps</li>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & jQuery</li>
+            <li>Bootstrap & Responsive Design</li>
+            <li>SASS/SCSS</li>
+            <li>Modern CSS Frameworks</li>
           </ul>
         </div>
 
         <div class="skill-card">
-          <h3>Cloud & DevOps</h3>
-          <p>Experienced in cloud infrastructure and deployment automation.</p>
+          <h3>Development Tools</h3>
+          <p>Experienced with modern development tools and practices.</p>
           <ul>
-            <li>AWS (EC2, S3, Lambda, RDS)</li>
-            <li>Docker & Kubernetes</li>
-            <li>CI/CD (GitHub Actions, Jenkins)</li>
-            <li>Infrastructure as Code</li>
-            <li>Cloud Security Best Practices</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>IoT & Automation</h3>
-          <p>Specialized in IoT solutions and process automation.</p>
-          <ul>
-            <li>Raspberry Pi & Arduino</li>
-            <li>MQTT & IoT Protocols</li>
-            <li>Sensor Integration</li>
-            <li>Real-time Data Processing</li>
-            <li>Automation Scripts</li>
+            <li>Git & Version Control</li>
+            <li>Docker Containers</li>
+            <li>CI/CD Pipelines</li>
+            <li>Agile Methodologies</li>
+            <li>Testing & Debugging</li>
           </ul>
         </div>
 
@@ -518,10 +483,22 @@
           <p>Proficient in database design and optimization.</p>
           <ul>
             <li>PostgreSQL & MySQL</li>
-            <li>MongoDB & Redis</li>
+            <li>SQL Server</li>
             <li>Database Optimization</li>
             <li>Data Modeling</li>
             <li>Query Performance Tuning</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Testing & Automation</h3>
+          <p>Expert in automated testing and quality assurance.</p>
+          <ul>
+            <li>Selenium WebDriver</li>
+            <li>Unit Testing</li>
+            <li>Integration Testing</li>
+            <li>Test Automation</li>
+            <li>Performance Testing</li>
           </ul>
         </div>
 
@@ -539,106 +516,94 @@
       </div>
     </section>
 
-<section id="projects" class="section container">
-  <h2 class="section-title">Featured Projects</h2>
-  <div class="project-grid">
-    <article class="project-card">
-      <div class="project-content">
-        <h3>Light Control System</h3>
-        <p>Advanced IoT solution for smart lighting control with mobile app integration. Features include scheduling, motion detection, and energy consumption tracking.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">React Native</span>
-          <span class="tech-tag">MQTT</span>
-          <span class="tech-tag">Raspberry Pi</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/light_control" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <div class="project-content">
-        <h3>Property Management System</h3>
-        <p>Comprehensive real estate management platform with features for tenant management, maintenance tracking, and financial reporting.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Django</span>
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">PostgreSQL</span>
-          <span class="tech-tag">AWS</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/property_management" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <div class="project-content">
-        <h3>Digital Product Download</h3>
-        <p>Shopify application for secure digital product delivery with license key management and automated email delivery system.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Shopify API</span>
-          <span class="tech-tag">AWS S3</span>
-          <span class="tech-tag">Redis</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/DigitalProductDownload" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <div class="project-content">
-        <h3>Product Copy Manager</h3>
-        <p>An automation tool for product management and content synchronization across platforms.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Django</span>
-          <span class="tech-tag">Celery</span>
-          <span class="tech-tag">Redis</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/copyproducts" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <div class="project-content">
-        <h3>IP Blocker</h3>
-        <p>A security solution to manage and block unwanted network traffic with configurable rules for blocking IP addresses.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Flask</span>
-          <span class="tech-tag">iptables</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/ipblocker" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <div class="project-content">
-        <h3>Gmail Send Auto</h3>
-        <p>Email automation script leveraging the Gmail API for bulk communication and scheduling.</p>
-        <div class="tech-stack">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Gmail API</span>
-          <span class="tech-tag">Google Cloud</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/Egaokira/Gmail-Send-Auto" class="btn">View Project</a>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
+    <section id="projects" class="section container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Property Management System</h3>
+            <p>Comprehensive real estate management platform with features for tenant management, maintenance tracking, and financial reporting.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Django</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">AWS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Egaokira/property_management" class="btn">View Project</a>
+            </div>
+          </div>
+        </article>
 
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Digital Product Download</h3>
+            <p>Shopify application for secure digital product delivery with license key management and automated email delivery system.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Shopify API</span>
+              <span class="tech-tag">AWS S3</span>
+              <span class="tech-tag">Redis</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Egaokira/DigitalProductDownload" class="btn">View Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Product Copy Manager</h3>
+            <p>An automation tool for product management and content synchronization across platforms.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Django</span>
+              <span class="tech-tag">Celery</span>
+              <span class="tech-tag">Redis</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Egaokira/copyproducts" class="btn">View Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>IP Blocker</h3>
+            <p>A security solution to manage and block unwanted network traffic with configurable rules for blocking IP addresses.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">iptables</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Egaokira/ipblocker" class="btn">View Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Gmail Send Auto</h3>
+            <p>Email automation script leveraging the Gmail API for bulk communication and scheduling.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Gmail API</span>
+              <span class="tech-tag">Google Cloud</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Egaokira/Gmail-Send-Auto" class="btn">View Project</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <section id="contact" class="section container">
       <h2 class="section-title">Let's Work Together</h2>
       <div class="contact-section">
         <p>Looking for a developer who can bring your ideas to life? I'm currently available for freelance projects and full-time opportunities.</p>
-        <p>Whether you need a custom web application, IoT solution, or technical consultation, I'm here to help.</p>
+        <p>Whether you need a custom web application, automation solution, or technical consultation, I'm here to help.</p>
         <div class="contact-links" style="margin-top: 2rem;">
           <a href="mailto:egaokira@gmail.com" class="btn">Email Me</a>
           <a href="https://github.com/Egaokira" class="btn" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary); color: var(--primary);">GitHub Profile</a>
@@ -650,7 +615,7 @@
   <footer>
     <div class="container">
       <p>© 2024 Abderrahim Chadli. All rights reserved.</p>
-      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-gray);">Full Stack Developer & IoT Specialist</p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-gray);">Full Stack Developer</p>
     </div>
   </footer>
 
