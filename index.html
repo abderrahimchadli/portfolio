@@ -599,19 +599,80 @@
       </div>
     </section>
 
-    <section id="contact" class="section container">
-      <h2 class="section-title">Let's Work Together</h2>
-      <div class="contact-section">
-        <p>Looking for a developer who can bring your ideas to life? I'm currently available for freelance projects and full-time opportunities.</p>
-        <p>Whether you need a custom web application, automation solution, or technical consultation, I'm here to help.</p>
-        <div class="contact-links" style="margin-top: 2rem;">
-          <a href="mailto:egaokira@gmail.com" class="btn">Email Me</a>
-          <a href="https://github.com/Egaokira" class="btn" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary); color: var(--primary);">GitHub Profile</a>
-          <a href="https://www.linkedin.com/in/abderrahimchadli/" class="btn" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary); color: var(--primary);">LinkedIn Profile</a>
-        </div>
+<section id="contact" class="section container">
+  <h2 class="section-title">Let's Work Together</h2>
+  <div class="contact-section">
+    <p>Looking for a developer who can bring your ideas to life? I'm currently available for freelance projects and full-time opportunities.</p>
+    <p>Whether you need a custom web application, automation solution, or technical consultation, I'm here to help.</p>
+    
+    <!-- FormSubmit will send emails to the address specified in the action URL -->
+    <form action="https://formsubmit.co/egaokira@gmail.com" method="POST" class="contact-form" style="max-width: 600px; margin: 2rem auto; text-align: left;">
+      <!-- FormSubmit Configuration -->
+      <input type="hidden" name="_subject" value="New Portfolio Contact!">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://egaokira.github.io/thank-you.html">
+      <input type="hidden" name="_captcha" value="true">
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label for="name" style="display: block; margin-bottom: 0.5rem; color: var(--text-light);">Name</label>
+        <input type="text" id="name" name="name" required 
+               style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; 
+                      background: var(--bg-card); border: 1px solid var(--text-gray);
+                      color: var(--text-light); outline: none; transition: var(--transition);"
+               placeholder="Your name">
       </div>
-    </section>
-  </main>
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label for="email" style="display: block; margin-bottom: 0.5rem; color: var(--text-light);">Email</label>
+        <input type="email" id="email" name="email" required 
+               style="width: 100%; padding: 0.75rem; border-radius: 0.5rem;
+                      background: var(--bg-card); border: 1px solid var(--text-gray);
+                      color: var(--text-light); outline: none; transition: var(--transition);"
+               placeholder="Your email">
+      </div>
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label for="message" style="display: block; margin-bottom: 0.5rem; color: var(--text-light);">Message</label>
+        <textarea id="message" name="message" required rows="5" 
+                  style="width: 100%; padding: 0.75rem; border-radius: 0.5rem;
+                         background: var(--bg-card); border: 1px solid var(--text-gray);
+                         color: var(--text-light); outline: none; transition: var(--transition);
+                         resize: vertical;"
+                  placeholder="Your message"></textarea>
+      </div>
+      
+      <button type="submit" class="btn" style="width: 100%; cursor: pointer;">Send Message</button>
+    </form>
+
+    <div class="contact-links" style="margin-top: 2rem;">
+      <a href="https://github.com/Egaokira" class="btn" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary); color: var(--primary);">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/abderrahimchadli/" class="btn" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary); color: var(--primary);">LinkedIn Profile</a>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Add these styles to your existing CSS */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.2);
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  border-color: var(--primary);
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+.contact-form button:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+</style>  </main>
 
   <footer>
     <div class="container">
